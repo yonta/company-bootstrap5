@@ -1,4 +1,4 @@
-# company-bootstrap
+
 Emacs company backend for bootstrap 4 version
 
 # How can I configure to use it?

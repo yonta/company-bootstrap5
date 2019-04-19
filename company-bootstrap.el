@@ -32,10 +32,6 @@
 
 (defconst company-bootstrap-version "4.3.1")
 
-(defgroup company-bootstrap nil
-  "Company-mode backend for bootstrap"
-  :group 'company)
-
 ;;;###autoload
 (defun company-bootstrap (command &optional arg &rest ignored)
   "Company backend for Bootstrap."
