@@ -14,7 +14,7 @@ $ git clone https://github.com/typefo/company-bootstrap.git
 2. Copy it to the emacs autoload directory
 
 ```
-$ cp -R company-bootstrap ~/.emacs/lisp
+$ cp -R company-bootstrap ~/.emacs.d/lisp
 ```
 
 ### Use the elpa repository to automate installation
