@@ -35,7 +35,7 @@ Install package: company-bootstrap
 
 # How can I configure to use it?
 
-First you need to enable the company mode in the emacs configuration file
+First you make sure you have the `company` package installed
 
 ```
 (add-hook 'after-init-hook 'global-company-mode)
