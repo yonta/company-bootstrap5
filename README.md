@@ -26,7 +26,7 @@ $ cp -R company-bootstrap ~/.emacs.d/lisp
          '("elpa" . "https://elpa.typefo.com/packages/") t)
 ```
 
-2. Use the `Alt + x` key, Execute the `package-install` command to install
+2. Use the `Alt + x` key, Execute the `package-install` command in Emacs to install
 
 ```
 M-x> package-install
