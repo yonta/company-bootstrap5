@@ -1,6 +1,10 @@
 
 Emacs company backend for bootstrap 4 version
 
+# Look at the examples
+
+![Screenshot](https://typefo.com/assets/company-bootstrap-example.jpg)
+
 # how to install?
 
 ### Manual installation
