@@ -1,4 +1,3 @@
-
 Emacs company backend for bootstrap 4 version
 
 # Look at the examples
