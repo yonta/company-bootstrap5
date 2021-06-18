@@ -1,11 +1,12 @@
-;;; company-bootstrap.el --- A company backend for bootstrap.
+;;; company-bootstrap5.el --- A company backend for bootstrap5.
 
 ;; Copyright (C) 2019 typefo
+;;               2021 SAITOU Keita
 
-;; Author: typefo <typefo@hotmail.com>
-;; URL: https://github.com/typefo/company-bootstrap
+;; Author: SAITOU Keita <keita44.f4@gmail.com>
+;; URL: https://github.com/yonta/company-bootstrap5
 ;; Package-Requires: ((emacs "24.3") (company "0.9.10"))
-;; Version: 4.3.1
+;; Version: 5.0.1
 
 ;; This program is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -22,36 +23,36 @@
 
 ;;; Commentary:
 
-;; This a company backend for twitter bootstrap
+;; This a company backend for bootstrap5
 
 ;;; Code:
 
 (require 'cl-lib)
 (require 'company)
-(require 'company-bootstrap-completions)
+(require 'company-bootstrap5-completions)
 
-(defconst company-bootstrap-version "4.3.1")
+(defconst company-bootstrap5-version "5.0.1")
 
 ;;;###autoload
-(defun company-bootstrap (command &optional arg &rest ignored)
-  "Company backend for Bootstrap."
+(defun company-bootstrap5 (command &optional arg &rest ignored)
+  "Company backend for Bootstrap5."
   (interactive (list 'interactive))
   (cl-case command
-    (interactive (company-begin-backend 'company-bootstrap))
+    (interactive (company-begin-backend 'company-bootstrap5))
     (prefix (company-grab-symbol))
     (candidates
      (cl-remove-if-not
       (lambda (c) (string-prefix-p arg c))
-      company-bootstrap-completions)))
+      company-bootstrap5-completions)))
   )
 
 ;;;###autoload
-(defun company-bootstrap-init ()
-  "Init company bootstrap backend."
+(defun company-bootstrap5-init ()
+  "Init company bootstrap5 backend."
   (interactive)
-  (add-to-list 'company-backends 'company-bootstrap)
+  (add-to-list 'company-backends 'company-bootstrap5)
   )
 
-(provide 'company-bootstrap)
+(provide 'company-bootstrap5)
 
-;;; company-bootstrap.el ends here
+;;; company-bootstrap5.el ends here

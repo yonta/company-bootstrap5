@@ -1,11 +1,12 @@
-;;; company-bootstrap-completions.el --- A company backend for bootstrap.
+;;; company-bootstrap5-completions.el --- A company backend for Bootstrap5.
 
 ;; Copyright (C) 2019 typefo
+;;               2021 SAITOU Keita
 
-;; Author: typefo <typefo@hotmail.com>
-;; URL: https://github.com/typefo/company-bootstrap
+;; Author: SAITOU Keita <keita44.f4@gmail.com>
+;; URL: https://github.com/yonta/company-bootstrap5
 ;; Package-Requires: ((emacs "24.3") (company "0.9.10"))
-;; Version: 4.3.1
+;; Version: 5.0.1
 
 ;; This program is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -22,11 +23,11 @@
 
 ;;; Commentary:
 
-;; This a company backend for twitter bootstrap
+;; This a company backend for Bootstrap5
 
 ;;; Code:
 
-(defconst company-bootstrap-completions
+(defconst company-bootstrap5-completions
   '("accordion"
     "active"
     "alert"
@@ -1535,6 +1536,6 @@
     "was-validated")
   )
 
-(provide 'company-bootstrap-completions)
+(provide 'company-bootstrap5-completions)
 
-;;; company-bootstrap-completions.el ends here
+;;; company-bootstrap5-completions.el ends here
