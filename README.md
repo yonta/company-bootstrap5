@@ -4,7 +4,7 @@ Emacs company backend for bootstrap5.
 
 ## Screenshot
 
-![Screenshot](https://typefo.com/assets/img/company-bootstrap-example.jpg)
+![Screenshot](https://raw.githubusercontent.com/yonta/company-bootstrap5/master/company-bootstrap5.png)
 
 ## How to install
 
